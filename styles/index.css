@@ -10,6 +10,10 @@ body {
 	/* width: 1600px; */
 }
 
+main {
+	margin: 0 170px;
+}
+
 section {
 	margin-top: 110px;
 }
@@ -64,7 +68,7 @@ section {
 
 .failures__left img {
 	margin-left: 200px;
-	margin-right: 85px;
+	margin-right: 90px;
 }
 
 .failures__right {
@@ -78,3 +82,32 @@ section {
 .failures__right-desc {
 	color: #444343;
 }
+
+.failures__right-title {
+	margin-bottom: 24px;
+}
+
+.failures__right-desc {
+	margin-bottom: 16px;
+}
+
+.failures__right li {
+	line-height: 26px;
+}
+
+/* My Plan */
+.plan {
+	text-align: center;
+}
+
+.plan__title {
+	margin-bottom: 50px;
+}
+
+.plan__dev {
+	display: flex;
+	gap: 86px;
+	justify-content: space-around;
+}
+
+/*  */
